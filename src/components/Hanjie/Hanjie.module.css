@@ -1,0 +1,25 @@
+.grid {
+  background-color: white;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.grid td {
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.grid tr :nth-child(5n) {
+  border-right: 3px solid black;
+}
+
+.grid tr {
+  margin: 0;
+}
+
+.grid th {
+  padding: 20px;
+}
