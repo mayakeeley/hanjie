@@ -1,3 +1,9 @@
 .table {
   border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.sideNumbers {
+  white-space: nowrap;
+  width: 50px;
 }

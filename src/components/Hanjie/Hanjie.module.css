@@ -12,7 +12,7 @@
   margin: 0;
 }
 
-.grid tr :nth-child(5n) {
+.grid tr :nth-child(5n + 1) {
   border-right: 3px solid black;
 }
 
@@ -21,5 +21,13 @@
 }
 
 .grid th {
-  padding: 20px;
+  padding: 0;
+  vertical-align: bottom;
+  text-align: right;
+}
+
+.topNumbers {
+  height: 100px;
+  padding: 0;
+  width: 20px;
 }

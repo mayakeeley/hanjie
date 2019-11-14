@@ -5,7 +5,6 @@ class TableItem extends Component {
   state = { isSelected: false };
   handleClick = () => {
     this.setState({ isSelected: !this.state.isSelected });
-    console.log("click");
   };
   render() {
     let color;
